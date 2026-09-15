@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موسوعة الفضاء - تحميل التطبيق</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-bottom: 10px;
+            font-size: 22px;
+            color: #2c3e50;
+        }
+        p {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
+        }
+        .btn:hover {
+            background-color: #219150;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="icon.png" alt="شعار التطبيق" class="app-icon" onerror="this.style.display='none'">
+        <h2>موسوعة الفضاء</h2>
+        <p>اضغط على الزر أدناه للانتقال المباشر إلى صفحة التطبيق الرسمية على متجر Google Play وتحميله بسهولة.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.flet.astronomy" class="btn">تحميل من Google Play</a>
+    </div>
+
+</body>
+</html>
